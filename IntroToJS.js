@@ -22,4 +22,17 @@ console.log('this will show an error if we logged name so i commented it')
 var favoriteAnimal = 'samakeee';
 console.log('My favorite animal: ' + favoriteAnimal )
 
+// In ES6, template literals use backticks ` and ${} to interpolate values into a string.
+var myName = 'Leandro';
+var myCity = 'Rome';
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+//type of operator
+const unknown1 = 'foo';
+console.log(typeof unknown1); // Output: string
+
+const unknown2 = 10;
+console.log(typeof unknown2); // Output: number
+
+const unknown3 = true; 
+console.log(typeof unknown3); // Output: boolean
 
