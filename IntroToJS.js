@@ -35,4 +35,5 @@ console.log(typeof unknown2); // Output: number
 
 const unknown3 = true; 
 console.log(typeof unknown3); // Output: boolean
+//end here
 
