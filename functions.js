@@ -52,4 +52,7 @@ const rectangleArea = (width, height) => {
     return area;
   };
   
-  
+ /* //Concise Body Arrow Functions
+  const squareNum = (num) => { return num * num; };
+//becomes:
+const squareNum = num => num * num; */
