@@ -46,5 +46,10 @@ function getReminder(){
   const totalCost=costOfMonitors(5,4)
   console.log(totalCost)
   
-
+//arrow functions
+const rectangleArea = (width, height) => {
+    let area = width * height;
+    return area;
+  };
+  
   
