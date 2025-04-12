@@ -25,6 +25,26 @@ function getReminder(){
   }
   sayThanks('Cole');
   
+  //default parameters
+  function greeting (name = 'stranger') {
+    console.log(`Hello, ${name}!`)
+  }
+  
+  greeting('Nick') // Output: Hello, Nick!
+  greeting() // Output: Hello, stranger!
+
+  
+
+  //helper functions
+  function monitorCount(rows, columns) {
+    return rows * columns;
+  }
+  
+  function costOfMonitors(rows, columns) {
+    return monitorCount(rows, columns) * 200;
+  }
+  const totalCost=costOfMonitors(5,4)
+  console.log(totalCost)
   
 
   
