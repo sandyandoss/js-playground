@@ -8,3 +8,16 @@ function logCitySkyline(){
   return 'The stars over the ' + skyscraper + ' in ' + city
   console.log(logCitySkyline())
 };
+
+/*Scope is the context in which our variables are declared. We think about scope
+ in relation to blocks because variables can exist either outside of or within these blocks..*/
+
+ //we declare 3 global  variables
+ var satellite = 'The Moon';
+var galaxy = 'The Milky Way';
+var stars = 'North Star';
+function callMyNightSky(){
+  return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+
+}
+console.log(callMyNightSky())
