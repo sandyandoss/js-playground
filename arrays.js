@@ -4,3 +4,7 @@ console.log(listItem)
 console.log(famousSayings[2])
 console.log(famousSayings[3])
 
+//update elements
+let groceryList = ['bread', 'tomatoes', 'milk'];
+groceryList[1] ='avocados';
+
