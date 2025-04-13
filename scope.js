@@ -41,3 +41,17 @@ function logVisibleLightWaves(){
  /* //error because lightwaves is in the block to its a block scope
   console.log(lightWaves)
 */
+
+//practice good scoping
+
+const logSkyColor = () => {
+    const dusk = true;
+    let color = 'blue'; 
+    if (dusk) {
+      let color = 'pink';
+      console.log(color); // Prints "pink"
+    }
+    console.log(color); // Prints "blue"
+  };
+  
+  console.log(color); // throws a ReferenceError  
