@@ -8,3 +8,4 @@ console.log(famousSayings[3])
 let groceryList = ['bread', 'tomatoes', 'milk'];
 groceryList[1] ='avocados';
 
+//you cant update an element in a const variable
