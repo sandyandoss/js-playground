@@ -21,3 +21,18 @@ function callMyNightSky(){
 
 }
 console.log(callMyNightSky())
+
+
+
+
+
+//global scope
+function logVisibleLightWaves(){
+    const lightWaves = 'Moonlight'
+    // this works because it's within the same block
+    console.log(lightWaves)
+  }
+  logVisibleLightWaves()
+  
+  //error because lightwaves is in the block to its a block scope
+  console.log(lightWaves)
