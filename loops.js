@@ -4,6 +4,12 @@ console.log(vacationSpots[0])
 console.log(vacationSpots[1])
 console.log(vacationSpots[2])
 
+//instead, we do for loop:
+for (let counter = 0; counter < 4; counter++) {
+    console.log(counter);
+  }
+
+  
 
 
 
