@@ -69,7 +69,27 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   
 
 
-
+// Step 1: The callback function
+const addTwo = (num) => {
+    return num + 2;
+  };
+  
+  // Step 1 continued: Higher-order function
+  const checkConsistentOutput = (func, val) => {
+    const checkA = val + 2;
+    const checkB = func(val);
+  
+    // Step 2: Conditional check
+    if (checkA === checkB) {
+      return checkB;
+    } else {
+      return 'inconsistent results';
+    }
+  };
+  
+  // Step 3: Call and log
+  console.log(checkConsistentOutput(addTwo, 10)); // Should log 12
+  
 
 
 
