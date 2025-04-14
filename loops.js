@@ -9,7 +9,51 @@ for (let counter = 0; counter < 4; counter++) {
     console.log(counter);
   }
 
-  
+  //inverse loop
+  // The loop below loops from 0 to 3. Edit it to loop backwards from 3 to 0
+  for (let counter = 3; counter >= 0; counter--) {
+    console.log(counter);
+  }
+
+
+ //
+ // nested loops
+let bobsFollowers = ['sandy', 'jake','leonardo','kaila']
+let tinasFollowers = ['sandy', 'jake','lea']
+let mutualFollowers = []
+
+for (let i = 0; i<bobsFollowers.length; i++){
+  for (let j=0; j<tinasFollowers.length;  j++){
+    if(bobsFollowers[i]=== tinasFollowers[j]){
+mutualFollowers.push(bobsFollowers[i])
+    }
+  }
+}
+
+
+//do while
+let cupsOfSugarNeeded = 3;
+let cupsAdded = 0;
+do{
+  cupsAdded +=1
+  console.log(cupsAdded)
+}
+while(cupsAdded<cupsOfSugarNeeded)
+
+
+
+//while
+const cards = ['diamond', 'spade', 'heart', 'club'];
+
+// Write your code below
+let currentCard;
+while(currentCard != 'spade'){
+  currentCard = cards[Math.floor(Math.random() * 4)];
+console.log(currentCard)
+}
+
+
+
 
 
 
