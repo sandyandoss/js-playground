@@ -91,20 +91,20 @@ const addTwo = (num) => {
   console.log(checkConsistentOutput(addTwo, 10)); // Should log 12
   
   //ft as parameters
-  const addTwo = num => {
+   addTwo = num => {
     return num + 2;
   }
   
-  const checkConsistentOutput = (func, val) => {
-  var checkA = val +2;
-   var checkB = func(val)
-   if (checkA === checkB){
+  function checkConsistentOutput(func, val) {
+  var checkA = val + 2;
+  var checkB = func(val);
+  if (checkA === checkB) {
     return checkA;
-   }
-   else{
-    console.log('inconsistent results')
-   }
   }
+  else {
+    console.log('inconsistent results');
+  }
+}
   console.log(checkConsistentOutput(addTwo, 3));
   
   console.log();
