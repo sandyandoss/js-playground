@@ -7,6 +7,7 @@ fruits.forEach(fruit => {
 });
 
 
+
 //2- .map()
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
@@ -24,3 +25,19 @@ const smallNumbers = bigNumbers.map(numbers =>{
   return numbers / 100;
 })
 console.log(smallNumbers)
+
+
+
+//filter
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+
+// Call .filter() on randomNumbers below
+const smallNumbers = randomNumbers.filter(num => num < 250 
+)
+console.log(smallNumbers)
+
+const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+const longFavoriteWords = favoriteWords.filter(word => word.length > 7)
+// Call .filter() on favoriteWords below
+console.log(longFavoriteWords)
