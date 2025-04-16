@@ -61,5 +61,18 @@ console.log(robot.provideInfo());
   // robot._energyLevel= 'high';
   // robot.recharge()
   
+
+
+
+
+
+  //We use the get keyword followed by a function.
+  /*
+We use an if...else conditional to check if both _firstName and _lastName exist (by making sure they both return truthy values) and then return a different value depending on the result.
+We can access the calling object’s internal properties using 
+Preview: Docs Loading link description
+this
+. In fullName, we’re accessing both this._firstName and this._lastName.
+In the last line we call fullName on person. In general, getter methods do not need to be called with a set of parentheses. Syntactically, it looks like we’re accessing a property. */
   
   
