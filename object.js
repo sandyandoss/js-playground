@@ -22,3 +22,9 @@ let spaceship = {
   const planetArray = spaceship.flightPath; */
   
 //advanced objects
+const goat = {
+  dietType: 'herbivore',
+  makeSound() {
+    console.log('baaa');
+  }
+};
