@@ -134,4 +134,3 @@ const { functionality } = robot;
 // Now you can use it like this:
 functionality.beep();       // Output: Beep Boop
 functionality.fireLaser();  // Output: Pew Pew
-//
