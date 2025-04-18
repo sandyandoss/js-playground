@@ -102,15 +102,35 @@ const robotFactory = (model, mobile) => {
 };
 
 
-const robotFactory = (model, mobile) => {
-  return {
-    model: model,
-    mobile: mobile,
+// const robotFactory = (model, mobile) => {
+
+//   return {
+//     model: model,
+//     mobile: mobile,
+//     beep() {
+//       console.log('Beep Boop');
+//     }
+//   };
+// };
+
+// const tinCan = robotFactory('P-500' , true)
+// tinCan.beep()
+const robot = {
+  model: 'B-4',
+  mobile: true,
+  functionality: {
     beep() {
       console.log('Beep Boop');
+    },
+    fireLaser() {
+      console.log('Pew Pew');
     }
-  };
+  }
 };
 
-const tinCan = robotFactory('P-500' , true)
-tinCan.beep()
+// Destructured assignment:
+const { functionality } = robot;
+
+// Now you can use it like this:
+functionality.beep();       // Output: Beep Boop
+functionality.fireLaser();  // Output: Pew Pew
